@@ -17,6 +17,13 @@ npx sequelize db:migrate
 # npx sequelize db:migrate:undo:all
 ```
 
+### migration 新脚本
+
+```
+# 升级数据库
+npm run migrate:up
+```
+
 ### DataBase
 
 - table\column
