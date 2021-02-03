@@ -1,3 +1,9 @@
+/*
+ * @Author: zhixiong.fu
+ * @Date: 2021-02-04 00:29:14
+ * @Last Modified by:   zhixiong.fu
+ * @Last Modified time: 2021-02-04 00:29:14
+ */
 const { DATE, STRING } = require('sequelize');
 
 module.exports = {
