@@ -3,7 +3,7 @@
       "dialect": "mysql",
       "host": "121.37.188.31",
       "port": 6606,
-      "database": "egg_test",
+      "database": "init_test",
       "username": "root",
       "password": "Admin@123"
     },
@@ -11,7 +11,7 @@
       "dialect": "mysql",
       "host": "121.37.188.31",
       "port": 6606,
-      "database": "egg_test",
+      "database": "init_test",
       "username": "root",
       "password": "Admin@123"
     },
@@ -19,7 +19,7 @@
       "dialect": "mysql",
       "host": "121.37.188.31",
       "port": 6606,
-      "database": "egg_test",
+      "database": "init_test",
       "username": "root",
       "password": "Admin@123"
     }

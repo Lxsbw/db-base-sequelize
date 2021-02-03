@@ -4,26 +4,11 @@
   "description": "",
   "private": true,
   "dependencies": {
-    "@types/flake-idgen": "^0.1.30",
-    "egg-scripts": "^2.10.0",
-    "flake-idgen": "^1.1.2",
-    "midway": "^1.0.0",
     "mysql2": "^1.6.5",
-    "sequelize": "^5.12.3",
-    "sequelize-typescript": "^1.0.0-beta.3"
+    "sequelize": "^5.12.3"
   },
   "devDependencies": {
-    "@types/mocha": "^5.2.5",
-    "@types/node": "^10.5.5",
-    "babel-eslint": "^10.0.2",
-    "egg-ci": "^1.8.0",
-    "eslint": "^6.2.0",
     "sequelize-cli": "^5.4.0",
-    "ts-node": "^8.0.2",
-    "tslib": "^1.8.1",
-    "tslint": "^5.16.0",
-    "tslint-midway-contrib": "1",
-    "typescript": "^3.2.0",
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "commitizen": "^4.0.3",
@@ -37,7 +22,8 @@
   },
   "scripts": {
     "commit": "git-cz && yarn changelog",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
+    "del": "rm -rf node_modules && rm -rf yarn.lock"
   },
   "husky": {
     "hooks": {
