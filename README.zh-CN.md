@@ -1,6 +1,6 @@
-# midway-base
+# db-base-sequelize
 
-积分数据库管理
+db-base-sequelize
 
 ## 1
 
@@ -17,6 +17,13 @@ npx sequelize db:migrate
 # npx sequelize db:migrate:undo
 # 可以通过 `db:migrate:undo:all` 回退到初始状态
 # npx sequelize db:migrate:undo:all
+```
+
+### migration 新脚本
+
+```
+# 升级数据库
+npm run migrate:up
 ```
 
 ### 版本号管理

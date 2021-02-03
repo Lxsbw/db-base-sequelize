@@ -20,8 +20,11 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "commit": "git-cz && yarn changelog",
+    "commit": "git-cz && npm run changelog",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
+    "migrate:new": "npx sequelize migration:create",
+    "migrate:up": "npx sequelize db:migrate",
+    "migrate:down": "npx sequelize db:migrate:undo",
     "del": "rm -rf node_modules && rm -rf yarn.lock"
   },
   "husky": {
