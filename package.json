@@ -3,19 +3,18 @@
   "version": "0.0.1",
   "description": "",
   "private": true,
-  "dependencies": {
-    "mysql2": "^1.6.5",
-    "sequelize": "^5.12.3"
-  },
+  "dependencies": { },
   "devDependencies": {
-    "sequelize-cli": "^5.4.0",
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "commitizen": "^4.0.3",
     "conventional-changelog-cli": "^2.0.27",
     "cz-conventional-changelog": "3.0.2",
     "cz-customizable": "^6.2.0",
-    "husky": "^3.0.9"
+    "husky": "^3.0.9",
+    "mysql2": "^2.2.5",
+    "sequelize": "~5.22.3",
+    "sequelize-cli": "~5.5.1"
   },
   "engines": {
     "node": ">=8.9.0"

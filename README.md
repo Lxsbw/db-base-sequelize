@@ -1,6 +1,6 @@
-# midway-base
+# db-base-sequelize
 
-advokate-funkr-db-management
+db-base-sequelize
 
 ### migration
 
